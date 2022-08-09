@@ -1,4 +1,4 @@
-body {
+/* body {
     background-image: url("record.png");
     margin: 0px;
 }
@@ -12,4 +12,25 @@ header {
 main {
     background-color: lightgrey;
     padding: 1em;
+} */
+
+/* using classes */
+
+body {
+    margin: 0px;
+}
+
+.background {
+    background-image: url("record.png");
+}
+
+.gray {
+    background-color: lightgrey;
+    padding: 1em;
+}
+
+.nautical {
+    background-color: navy;
+    color: white;
+    text-align: center;
 }
